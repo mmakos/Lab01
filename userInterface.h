@@ -1,6 +1,6 @@
 #ifndef __USERINTERFACE_H_
 #define __USERINTERFACE_H_
-#define _TEST
+//#define _TEST
 
 #include "resourceManager.h"
 

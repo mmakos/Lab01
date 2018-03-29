@@ -3,7 +3,6 @@
 
 #include "resource.h"
 
-#define _TEST
 #define MAX_RESOURCES 15
 
 class ResourceManager

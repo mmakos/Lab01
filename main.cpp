@@ -18,6 +18,7 @@ int main()
     #else
     srand( time( NULL ) );
 
+    system( "clear || cls" );
     int a;
     do{
         a = uI.chooseAction();

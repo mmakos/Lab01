@@ -40,7 +40,7 @@ public:
     }
 
 protected:
-    countDigits( int n ) const;
+    int countDigits( int n ) const;
 
     std::string m_name;
     int m_quantity;

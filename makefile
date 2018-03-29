@@ -1,4 +1,4 @@
-(CC) = g++
+CC = g++
 
 gameResources: main.o resource.o userInterface.o resourceManager.o
 	$(CC) main.o resource.o userInterface.o resourceManager.o -o gameResources
@@ -15,4 +15,5 @@ userInterface.o: userInterface.cpp userInterface.h
 resourceManager.o: resourceManager.cpp resourceManager.h
 	$(CC) -c resourceManager.cpp -Wall
 
-rm -f *.o gameResources
+clean:
+	rm -rf *.o
